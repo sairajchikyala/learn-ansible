@@ -1,0 +1,6 @@
+- name: Demo on facts
+  hosts: all
+  tasks:
+    - name: print hostname using facts
+      ansible.builtin.debug:
+        msg: Hostname - {{ ansible_hostname }}
