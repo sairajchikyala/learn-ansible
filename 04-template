@@ -4,4 +4,4 @@
     - name: copy example.conf
       ansible.builtin.copy:
          src: example.conf
-         dest: /temp/example-copy.conf
+         dest: /tmp/example-copy.conf
