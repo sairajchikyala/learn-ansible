@@ -16,4 +16,5 @@
 
 
 # play level variables can be accessed by all roles and tasks
+# tasks level variables is olny accessed by that task only
 
