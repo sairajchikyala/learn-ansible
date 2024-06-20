@@ -16,5 +16,10 @@
 
 
 # play level variables can be accessed by all roles and tasks
-# tasks level variables is olny accessed by that task only
+# tasks level variables is only accessed by that task only
+#role level variables are accessed by in that role tasks
+# variables from CLI have highest precendence of any variable
+
+# imp: if the value of any key is a variable then double quote it
+# example msg: {{URL}} THEN THIS AS TO BE GIVEN AS msg: "{{URL}}"
 
