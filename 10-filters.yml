@@ -4,4 +4,4 @@
     - name: print
       ansible.builtin.debug:
         msg: yes we need to install
-      when: install
+      when: install | bool
